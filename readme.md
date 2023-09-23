@@ -1,4 +1,4 @@
-# OSRS account creator
+# OSRS account creator - Currently not functional - Back soon
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
