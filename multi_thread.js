@@ -1,3 +1,5 @@
+// Credits for base for multi threaded version to https://github.com/CatnipandMilk
+
 import { Worker, isMainThread, parentPort, workerData } from "worker_threads";
 import Scrappey from "scrappey-wrapper";
 import qs from "qs";
