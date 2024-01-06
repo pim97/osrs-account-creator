@@ -20,6 +20,7 @@ This project allows you to create oldschool runescape account on OSRS. This won'
    - EMAIL: Email you want to register with
    - PASSWORD: password you want to register with
 2. Run the script: `node create.js`
+3. Or run `node multi.js` to run multi threaded version. Add emails in emails.txt
 
 ## Contributing
 
