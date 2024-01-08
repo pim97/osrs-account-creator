@@ -58,6 +58,9 @@ function runThread(emailsChunk) {
                     const password = generateRandomPassword();
                     const createSession = await scrappey.createSession({
                         // "proxyCountry": "UnitedStates"
+                        // OR
+                        // use your own proxy ex. http://username:password@host:ip
+                        // OR leave it blank and we will select a proxy for you
                     });
                     const session = createSession.session;
 
