@@ -60,7 +60,7 @@ function runThread(emailsChunk) {
                         // "proxyCountry": "UnitedStates"
                         // OR
                         // use your own proxy
-                        // "proxy": "http://username:password@host:ip"
+                        // "proxy": "http://username:password@host:port"
                         // OR leave it blank and we will select a proxy for you
                     });
                     const session = createSession.session;
