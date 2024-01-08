@@ -56,7 +56,9 @@ function runThread(emailsChunk) {
                 try {
                     const scrappey = new Scrappey("API_KEY");
                     const password = generateRandomPassword();
-                    const createSession = await scrappey.createSession({});
+                    const createSession = await scrappey.createSession({
+                        // "proxyCountry": "UnitedStates"
+                    });
                     const session = createSession.session;
 
                     console.log(`Found session ${session} for email ${email}`);
